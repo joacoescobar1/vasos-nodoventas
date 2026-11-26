@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 480" width="320" height="480" role="img" aria-labelledby="title-ban">
+  <title id="title-ban">Vaso de aluminio ilustrativo con un motivo de bandas</title>
+  <defs>
+    <linearGradient id="metal-ban" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6a717d"/>
+      <stop offset="16%" stop-color="#b4bac4"/>
+      <stop offset="34%" stop-color="#eef0f4"/>
+      <stop offset="50%" stop-color="#fbfcfd"/>
+      <stop offset="64%" stop-color="#c5cad3"/>
+      <stop offset="84%" stop-color="#949aa6"/>
+      <stop offset="100%" stop-color="#5a616e"/>
+    </linearGradient>
+    <linearGradient id="inner-ban" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a4050"/>
+      <stop offset="45%" stop-color="#1c2230"/>
+      <stop offset="100%" stop-color="#12161f"/>
+    </linearGradient>
+    <linearGradient id="rim-ban" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8b919c"/>
+      <stop offset="35%" stop-color="#f4f5f7"/>
+      <stop offset="70%" stop-color="#c5cad3"/>
+      <stop offset="100%" stop-color="#6a7080"/>
+    </linearGradient>
+    <filter id="soft-ban" x="-25%" y="-5%" width="150%" height="125%">
+      <feDropShadow dx="0" dy="16" stdDeviation="14" flood-color="#121A2F" flood-opacity="0.28"/>
+    </filter>
+    <clipPath id="body-ban">
+      <path d="M90 96 L230 96 L215 398 Q160 420 105 398 Z"/>
+    </clipPath>
+  </defs>
+  <rect width="320" height="480" fill="#f6f7fb"/>
+  <ellipse cx="160" cy="430" rx="88" ry="13" fill="#121A2F" opacity="0.16"/>
+  <g filter="url(#soft-ban)">
+    <path d="M90 96 L230 96 L215 398 Q160 420 105 398 Z" fill="url(#metal-ban)"/>
+  </g>
+  <g clip-path="url(#body-ban)" opacity="0.30">
+    <rect x="120" y="96" width="16" height="310" fill="#ffffff"/>
+    <rect x="148" y="96" width="4" height="310" fill="#ffffff"/>
+    <rect x="198" y="96" width="9" height="310" fill="#2a3140" opacity="0.35"/>
+  </g>
+  <ellipse cx="160" cy="398" rx="55" ry="13" fill="none" stroke="#4e5564" stroke-width="1.1" opacity="0.35"/>
+  <ellipse cx="160" cy="96" rx="70" ry="17" fill="url(#inner-ban)"/>
+  <ellipse cx="160" cy="90" rx="74" ry="19" fill="none" stroke="url(#rim-ban)" stroke-width="8.5"/>
+  <ellipse cx="160" cy="85" rx="70" ry="15" fill="none" stroke="#ffffff" stroke-width="1.3" opacity="0.5"/>
+  <g transform="translate(160 248)" fill="#3a4252" fill-opacity="0.62" stroke="none">
+    
+  <g fill="none" stroke="#3a4252" stroke-opacity="0.68" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-42 -62 H42" stroke-width="1.3"/>
+    <path d="M-36 -50 L-24 -40 L-12 -50 L0 -40 L12 -50 L24 -40 L36 -50" stroke-width="2.2"/>
+    <path d="M-42 -28 H42" stroke-width="1.3"/>
+    <path d="M-42 28 H42" stroke-width="1.3"/>
+    <path d="M-36 40 L-24 50 L-12 40 L0 50 L12 40 L24 50 L36 40" stroke-width="2.2"/>
+    <path d="M-42 62 H42" stroke-width="1.3"/>
+    <path d="M0 -12 L12 0 L0 12 L-12 0 Z" stroke-width="1.8"/>
+  </g>
+
+  </g>
+</svg>
